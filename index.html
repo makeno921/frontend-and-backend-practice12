@@ -52,17 +52,17 @@
                 <div class="card-body p-4">
                     <div class="row align-items-center">
                         <div class="col-auto">
-                            <img src="images/photo.png" alt="Фото" class="rounded-circle" width="120" height="120">
+                            <img src="images/photo.png" alt="Фото" class="rounded-circle" width="130" height="130">
                         </div>
                         <div class="col">
-                            <h2 class="card-title h4 mb-1">Маслов Максим Юрьевич</h2>
+                            <h2 class="h4 mb-1">Максимов Святослав Эдуардович</h2>
                             <p class="text-muted mb-1"><i class="bi bi-mortarboard"></i> Студент группы ЭФБО-05-24</p>
-                            <p class="mb-2">Факультет индустриального программирования, специальность "Фуллстек разработка"</p>
+                            <p class="mb-3">Факультет индустриального программирования, специальность "Фуллстек разработка"</p>
                             <div class="d-flex gap-2 flex-wrap">
                                 <span class="badge bg-primary">HTML/CSS</span>
-                                <span class="badge bg-success">JavaScript</span>
+                                <span class="badge bg-success">Python</span>
                                 <span class="badge bg-info">Bootstrap</span>
-                                <span class="badge bg-warning">React</span>
+                                <span class="badge bg-warning">JavaScript</span>
                             </div>
                         </div>
                     </div>
@@ -72,40 +72,39 @@
 
         <!-- About -->
         <section class="mb-5">
-            <div class="accordion" id="about-accordion">
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#about-collapse">
-                            ℹ️ Обо мне
-                        </button>
-                    </h2>
-                    <div id="about-collapse" class="accordion-collapse collapse show" data-bs-parent="#about-accordion">
-                        <div class="accordion-body">
-                            Я увлекаюсь веб-разработкой и изучаю современные технологии. В свободное время занимаюсь созданием пет-проектов и изучаю новые фреймворки.<br>
-                            Мои основные интересы: фронтенд разработка, UX/UI дизайн и мобильная разработка. Стремлюсь к созданию качественных и удобных пользовательских интерфейсов.
-                        </div>
-                    </div>
+            <div class="card shadow-sm">
+                <div class="card-header bg-transparent">
+                    <h3 class="h5 mb-0">ℹ️ Обо мне</h3>
+                </div>
+                <div class="card-body">
+                    <p>Студент, увлекаюсь веб-разработкой. Изучаю HTML, CSS, JavaScript и Python. Люблю создавать красивые и функциональные сайты.</p>
                 </div>
             </div>
         </section>
 
         <!-- Skills -->
         <section class="mb-5">
-            <div class="accordion" id="skills-accordion">
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#skills-collapse">
-                            🛠️ Мои навыки
-                        </button>
-                    </h2>
-                    <div id="skills-collapse" class="accordion-collapse collapse show" data-bs-parent="#skills-accordion">
-                        <div class="accordion-body">
-                            <div class="row gy-3">
-                                <div class="col-12"><strong>HTML/CSS</strong><div class="progress mt-1"><div class="progress-bar bg-primary" style="width:90%"></div></div><small>90%</small></div>
-                                <div class="col-12"><strong>JavaScript</strong><div class="progress mt-1"><div class="progress-bar bg-success" style="width:75%"></div></div><small>75%</small></div>
-                                <div class="col-12"><strong>Bootstrap</strong><div class="progress mt-1"><div class="progress-bar bg-info" style="width:85%"></div></div><small>85%</small></div>
-                                <div class="col-12"><strong>React</strong><div class="progress mt-1"><div class="progress-bar bg-warning" style="width:70%"></div></div><small>70%</small></div>
-                            </div>
+            <div class="card shadow-sm">
+                <div class="card-header bg-transparent">
+                    <h3 class="h5 mb-0">🛠️ Мои навыки</h3>
+                </div>
+                <div class="card-body">
+                    <div class="row gy-3">
+                        <div class="col-12">
+                            <strong>HTML/CSS</strong>
+                            <div class="progress mt-1"><div class="progress-bar bg-primary" style="width:90%">90%</div></div>
+                        </div>
+                        <div class="col-12">
+                            <strong>Python</strong>
+                            <div class="progress mt-1"><div class="progress-bar bg-success" style="width:75%">75%</div></div>
+                        </div>
+                        <div class="col-12">
+                            <strong>Bootstrap</strong>
+                            <div class="progress mt-1"><div class="progress-bar bg-info" style="width:85%">85%</div></div>
+                        </div>
+                        <div class="col-12">
+                            <strong>JavaScript</strong>
+                            <div class="progress mt-1"><div class="progress-bar bg-warning" style="width:70%">70%</div></div>
                         </div>
                     </div>
                 </div>
@@ -114,39 +113,33 @@
 
         <!-- Projects -->
         <section class="mb-5">
-            <div class="accordion" id="projects-accordion">
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#projects-collapse">
-                            📁 Мои проекты
-                        </button>
-                    </h2>
-                    <div id="projects-collapse" class="accordion-collapse collapse show" data-bs-parent="#projects-accordion">
-                        <div class="accordion-body">
-                            <div class="row g-4">
-                                <div class="col-md-4">
-                                    <div class="card card--hover h-100">
-                                        <div class="card-body">
-                                            <h5 class="card-title">Личный сайт</h5>
-                                            <p class="card-text small">Сайт-портфолио на HTML, CSS и Bootstrap с адаптивным дизайном.</p>
-                                        </div>
-                                    </div>
+            <div class="card shadow-sm">
+                <div class="card-header bg-transparent">
+                    <h3 class="h5 mb-0">📁 Мой опыт работы</h3>
+                </div>
+                <div class="card-body">
+                    <div class="row g-4">
+                        <div class="col-md-4">
+                            <div class="card card--hover h-100">
+                                <div class="card-body">
+                                    <h5 class="card-title">Технический ассистент в xAI</h5>
+                                    <p class="card-text small">Работал над тестированием голосового режима с сентября 2024 по октябрь 2025. Участвовал в устранении ошибок и улучшении пользовательского опыта. Проект завершился запуском обновления 18 октября 2025, что стало важным этапом в моей карьере.</p>
                                 </div>
-                                <div class="col-md-4">
-                                    <div class="card card--hover h-100">
-                                        <div class="card-body">
-                                            <h5 class="card-title">Первая курсовая работа</h5>
-                                            <p class="card-text small">Тема работы: Разработка программного продукта – Программа для создания и редактирования графиков</p>
-                                        </div>
-                                    </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card card--hover h-100">
+                                <div class="card-body">
+                                    <h5 class="card-title">Организатор турниров по Dota 2</h5>
+                                    <p class="card-text small">С июня 2023 по август 2024 организовывал любительские турниры по Dota 2 в Москве, включая онлайн-чемпионат, завершившийся 15 августа 2024. Отвечал за расписание матчей, координацию команд и стриминг, что развило мои навыки управления проектами и работы в команде.</p>
                                 </div>
-                                <div class="col-md-4">
-                                    <div class="card card--hover h-100">
-                                        <div class="card-body">
-                                            <h5 class="card-title">Веб-приложение "АстроПортал"</h5>
-                                            <p class="card-text small">Проектная работа в 10 классе. Программа предназначена для интерактивного моделирования актуальной обстановки в околоземном космическом пространстве</p>
-                                        </div>
-                                    </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card card--hover h-100">
+                                <div class="card-body">
+                                    <h5 class="card-title">Фрилансер в графическом дизайне</h5>
+                                    <p class="card-text small">С января 2025 по настоящее время создаю логотипы и афиши для местных компаний. Последний проект — дизайн для фестиваля 18 октября 2025, выполненный за неделю до события, что подтвердило мою способность работать под давлением.</p>
                                 </div>
                             </div>
                         </div>
@@ -157,9 +150,10 @@
     </main>
 
     <footer class="bg-dark text-white text-center py-4">
-        <p>&copy; 2025 Маслов Максим</p>
+        <p>&copy; 2025 Мой сайт</p>
     </footer>
 </div>
+
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 <script src="script/script.js"></script>
 </body>
