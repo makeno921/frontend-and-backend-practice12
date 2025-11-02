@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="ru" data-bs-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Главная - Портфолио</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style/styles.css">
+</head>
+<body class="bg-light">
+<div class="container-fluid p-0">
+    <!-- Header -->
+    <header class="bg-primary text-white py-4">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col">
+                    <h1 class="h3 mb-1">Мой Портфолио</h1>
+                    <p class="mb-0 opacity-75">Студент разработчик</p>
+                </div>
+                <div class="col-auto">
+                    <span class="badge bg-light text-primary">ЭФБО-05-24</span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Nav -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item"><a class="nav-link active" href="index.html"><i class="bi bi-house me-1"></i>Главная</a></li>
+                    <li class="nav-item"><a class="nav-link" href="pages/news.html"><i class="bi bi-newspaper me-1"></i>Новости</a></li>
+                    <li class="nav-item"><a class="nav-link" href="pages/practices.html"><i class="bi bi-code-slash me-1"></i>Практики</a></li>
+                    <li class="nav-item"><a class="nav-link" href="pages/goods.html"><i class="bi bi-cart me-1"></i>Товары</a></li>
+                    <li class="nav-item"><a class="nav-link" href="pages/contacts.html"><i class="bi bi-telephone me-1"></i>Контакты</a></li>
+                </ul>
+                <button id="theme-toggle" class="btn btn-outline-light">🌙 Тёмная</button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main -->
+    <main class="container my-5">
+        <!-- Profile -->
+        <section class="mb-5">
+            <div class="card shadow-sm">
+                <div class="card-body p-4">
+                    <div class="row align-items-center">
+                        <div class="col-auto">
+                            <img src="images/photo.png" alt="Фото" class="rounded-circle" width="120" height="120">
+                        </div>
+                        <div class="col">
+                            <h2 class="card-title h4 mb-1">Маслов Максим Юрьевич</h2>
+                            <p class="text-muted mb-1"><i class="bi bi-mortarboard"></i> Студент группы ЭФБО-05-24</p>
+                            <p class="mb-2">Факультет индустриального программирования, специальность "Фуллстек разработка"</p>
+                            <div class="d-flex gap-2 flex-wrap">
+                                <span class="badge bg-primary">HTML/CSS</span>
+                                <span class="badge bg-success">JavaScript</span>
+                                <span class="badge bg-info">Bootstrap</span>
+                                <span class="badge bg-warning">React</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About -->
+        <section class="mb-5">
+            <div class="accordion" id="about-accordion">
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#about-collapse">
+                            ℹ️ Обо мне
+                        </button>
+                    </h2>
+                    <div id="about-collapse" class="accordion-collapse collapse show" data-bs-parent="#about-accordion">
+                        <div class="accordion-body">
+                            Я увлекаюсь веб-разработкой и изучаю современные технологии. В свободное время занимаюсь созданием пет-проектов и изучаю новые фреймворки.<br>
+                            Мои основные интересы: фронтенд разработка, UX/UI дизайн и мобильная разработка. Стремлюсь к созданию качественных и удобных пользовательских интерфейсов.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills -->
+        <section class="mb-5">
+            <div class="accordion" id="skills-accordion">
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#skills-collapse">
+                            🛠️ Мои навыки
+                        </button>
+                    </h2>
+                    <div id="skills-collapse" class="accordion-collapse collapse show" data-bs-parent="#skills-accordion">
+                        <div class="accordion-body">
+                            <div class="row gy-3">
+                                <div class="col-12"><strong>HTML/CSS</strong><div class="progress mt-1"><div class="progress-bar bg-primary" style="width:90%"></div></div><small>90%</small></div>
+                                <div class="col-12"><strong>JavaScript</strong><div class="progress mt-1"><div class="progress-bar bg-success" style="width:75%"></div></div><small>75%</small></div>
+                                <div class="col-12"><strong>Bootstrap</strong><div class="progress mt-1"><div class="progress-bar bg-info" style="width:85%"></div></div><small>85%</small></div>
+                                <div class="col-12"><strong>React</strong><div class="progress mt-1"><div class="progress-bar bg-warning" style="width:70%"></div></div><small>70%</small></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects -->
+        <section class="mb-5">
+            <div class="accordion" id="projects-accordion">
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#projects-collapse">
+                            📁 Мои проекты
+                        </button>
+                    </h2>
+                    <div id="projects-collapse" class="accordion-collapse collapse show" data-bs-parent="#projects-accordion">
+                        <div class="accordion-body">
+                            <div class="row g-4">
+                                <div class="col-md-4">
+                                    <div class="card card--hover h-100">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Личный сайт</h5>
+                                            <p class="card-text small">Сайт-портфолио на HTML, CSS и Bootstrap с адаптивным дизайном.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="card card--hover h-100">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Первая курсовая работа</h5>
+                                            <p class="card-text small">Тема работы: Разработка программного продукта – Программа для создания и редактирования графиков</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="card card--hover h-100">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Веб-приложение "АстроПортал"</h5>
+                                            <p class="card-text small">Проектная работа в 10 классе. Программа предназначена для интерактивного моделирования актуальной обстановки в околоземном космическом пространстве</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-dark text-white text-center py-4">
+        <p>&copy; 2025 Маслов Максим</p>
+    </footer>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="script/script.js"></script>
+</body>
+</html>

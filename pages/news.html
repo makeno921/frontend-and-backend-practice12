@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Новости</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="../style/styles.css">
+</head>
+<body class="page bg-light" data-bs-theme="light">
+<div class="page__container container-fluid p-0">
+    <header class="bg-primary text-white py-4">
+        <div class="container">
+            <h1 class="h3 mb-0">Новости</h1>
+        </div>
+    </header>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html">
+                            <i class="bi bi-house me-1"></i>Главная
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="news.html">
+                            <i class="bi bi-newspaper me-1"></i>Новости
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="practices.html">
+                            <i class="bi bi-code-slash me-1"></i>Практики
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="goods.html">
+                            <i class="bi bi-cart me-1"></i>Товары
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contacts.html">
+                            <i class="bi bi-telephone me-1"></i>Контакты
+                        </a>
+                    </li>
+                </ul>
+                <button id="theme-toggle" class="btn btn-outline-light ms-auto">🌙 Тёмная</button>
+            </div>
+        </div>
+    </nav>
+
+    <main class="content container my-4">
+        <h2 class="h4 mb-3">Последние новости</h2>
+        <div class="row g-4">
+            <div class="col-md-4">
+                <div class="card card--hover h-100">
+                    <div class="card-body">
+                        <h2 class="card__title h5">Аниме «Человек-Бензопила: История Резе» официально покажут в России и Беларуси</h2>
+                        <p class="card__desc text-muted mb-1">Дата: 2025-10-18 | Автор: Максимов С.Э.</p>
+                        <p class="card__desc">Анонсирован официальный релиз полнометражного аниме «Человек-Бензопила: История Резе» в российских и белорусских кинотеатрах. О получении прав на дистрибуцию ленты объявила компания DEEP.</p>
+                    </div>
+                    <div class="card-footer">
+                        <button class="btn btn-primary card__button">Читать далее</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card card--hover h-100">
+                    <div class="card-body">
+                        <h2 class="card__title h5">В Московском зоопарке родились детеныши мокасиновой змеи</h2>
+                        <p class="card__desc text-muted mb-1">Дата: 2025-10-05 | Автор: Максимов С.Э.</p>
+                        <p class="card__desc">Детеныши мокасиновой змеи родились в Московском зоопарке, в предыдущий раз пополнение у этого вида змей было несколько лет назад, сообщается на сайте мэра и правительства столицы.</p>
+                    </div>
+                    <div class="card-footer">
+                        <button class="btn btn-primary card__button">Читать далее</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card card--hover h-100">
+                    <div class="card-body">
+                        <h2 class="card__title h5">«На бумаге рассматривали, да» — Korb3n о возможном подписании Mira на пятую позицию в Team Spirit</h2>
+                        <p class="card__desc text-muted mb-1">Дата: 2025-10-18 | Автор: Максимов С.Э.</p>
+                        <p class="card__desc">Менеджер Team Spirit Дмитрий 'Korb3n' Белов ответил на вопрос зрителя о том, рассматривался ли Мирослав 'Mira' Колпаков в качестве игрока пятой позиции после ухода Ярослава 'Miposhka' Найденова в инактив. Об этом Корбен рассказал во время прямой трансляции на Twitch.</p>
+                    </div>
+                    <div class="card-footer">
+                        <button class="btn btn-primary card__button">Читать далее</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer bg-dark text-white text-center py-3 mt-auto">
+        <p>&copy; 2024 Новостной портал. Все права защищены.</p>
+    </footer>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+<script src="../script/script.js"></script>
+</body>
+</html>
